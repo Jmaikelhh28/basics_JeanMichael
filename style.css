@@ -1,0 +1,52 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Contenedor principal */
+.container {
+    width: 90%;
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Imagen responsiva */
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Título */
+h1 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+/* Párrafo */
+p {
+    font-size: 1em;
+    color: #333;
+}
+
+/* Media query para móviles */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+}
